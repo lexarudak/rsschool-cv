@@ -10,23 +10,24 @@
 <body>
   <div class="content">
     <header>
-      <section>
+      <section class="q">
         <div class="card">
           <nav>
             <ul class="header-footer">
-              <li class="menu-button"><a href="#contacts">Contacts</a> </li>
-              <li class="menu-button"><a href="#summary">Summary</a> </li>
-              <li class="menu-button"><a href="#professional-experience">Professional Experience</a></li>
-              <li class="menu-button"><a href="#education">Education</a></li>
-              <li class="menu-button"><a href="#it-experience">IT Experience</a></li>
-              <li class="menu-button"><a href="#languages">Languages</a></li>
+              <li class="menu-button"><a href="#contacts">CONTACTS</a> </li>
+              <li class="menu-button"><a href="#summary">SUMMARY</a> </li>
+              <li class="menu-button"><a href="#professional-experience">PROFESSIONAL EXPERIENCE</a></li>
+              <li class="menu-button"><a href="#education">EDUCATION</a></li>
+              <li class="menu-button"><a href="#it-experience">IT EXPERIENCE</a></li>
+              <li class="menu-button"><a href="#languages">LANGUAGES</a></li>
+            </ul>
           </nav>
         </div>
       </section>
     </header>
     <main>
       <section id="contacts">
-        <h1>Aliaksei Rudak</h1>
+        <h1>ALIAKSEI RUDAK</h1>
         <div class="card contacts">         
           <ul class="contacts-list" itemscope itemtype="http://schema.org/Organization">
             <li><span class="li-bold">Location: </span> <span itemprop="address">Almaty, Kazakhstan</span></li>
@@ -37,16 +38,15 @@
             <li>&nbsp;</li>
             <li>&nbsp;</li>
             <li><a href="https://github.com/lexarudak"><img src="pictures/github-icon.png" alt="github icon" width="50px"
-                height="50px"></a></li>
+                height="50px"></a><a href="https://www.linkedin.com/in/aliaksei-rudak/"> <img src="pictures/linkedin-icon.png" alt="linkedin icon" width="50px" height="50px"></a></li>
           </ul>
-          <button>LinkedIN</button> <button>GitHub</button>
-          <img src="pictures/my-photo.jpeg" alt="my photo" width="150px" height="200">
+          <img id="my-photo" src="pictures/my-photo.jpeg" alt="my photo" width="150px" height="200">
         </div> 
       </section>    
       <section id="summary">
         <h2>SUMMARY</h2>
         <div class="card">
-        <p>31 year old aspiring JavaScript Frontend developer with extensive sales experience. My work experience is not related to the IT field, but helped me acquire such important skills as:</p>
+          <p>31 year old aspiring JavaScript Frontend developer with extensive sales experience. My work experience is not related to the IT field, but helped me acquire such important skills as:</p>
           <ul>
             <li>Ability to focus on completing a task</li>
             <li>Work under stress without loss of quality</li>
@@ -60,18 +60,18 @@
         <h2>PROFESSIONAL EXPERIENCE</h2>
         <div class="card">
           <h3><span class="h3-bold">DAR-electro</span> - Distributor of electrical equipment and smart home solutions</h3>
-          <p class="work-dit">February 2019 - March 2022 <span class="work-loc">Minsk, Belarus</span> </p>
+          <p class="work-dit">February 2019 - March 2022 <span class="grey-italic">Minsk, Belarus</span> </p>
           <p class="post">Founder Assistant</p>
-            <ul>
-              <li>Partners administration in the field of electrical equipment</li>
-              <li>Creating price lists, reports, invoicing, issuing invoices</li>
-              <li>Market analysis</li>
-              <li>Meetings with customers, selection of equipment</li>
+          <ul>
+            <li>Partners administration in the field of electrical equipment</li>
+            <li>Creating price lists, reports, invoicing, issuing invoices</li>
+            <li>Market analysis</li>
+            <li>Meetings with customers, selection of equipment</li>
           </ul>
         </div>        
         <div class="card">
           <h3><span class="h3-bold">Mesto gde svet</span> - Shop of lighting and electrical equipment</h3>
-          <p class="work-dit">February 2017 - January 2019 <span class="work-loc">Minsk, Belarus</span> </p>
+          <p class="work-dit">February 2017 - January 2019 <span class="grey-italic">Minsk, Belarus</span> </p>
           <p class="post">Owner</p>
           <ul>
             <li>Retail sales</li>
@@ -81,7 +81,7 @@
         </div>          
         <div class="card">
           <h3><span class="h3-bold">Datastream DEP</span> - Distributor of equipment for local networks and video surveillance</h3>
-          <p class="work-dit">September 2014 - January 2017 <span class="work-loc">Minsk, Belarus</span> </p>
+          <p class="work-dit">September 2014 - January 2017 <span class="grey-italic">Minsk, Belarus</span> </p>
           <p class="post">Specialist sales</p>
           <ul>
             <li>B2B sales</li>
@@ -93,34 +93,36 @@
       <section id="education">
         <h2>EDUCATION</h2>
         <div class="card">
-          <h3><span class="h3-bold">Belarusian State Academy of Communications</span><span class="comment"> - State College of Communications)</span> </h3>
-          <p class="work-dit">September 2007 - June 2014 <span class="work-loc">Minsk, Belarus</span> </p>
+          <h3><span class="h3-bold">Belarusian State Academy of Communications</span><span class="grey-italic"> - (Higher State College of Communications)</span> </h3>
+          <p class="work-dit">September 2007 - June 2014 <span class="grey-italic">Minsk, Belarus</span> </p>
           <p class="post">Telecommunications engineer</p>
         </div>        
       </section>     
       <section id="it-experience">
         <h2>IT EXPERIENCE</h2>
-        <div class="card">
-          <h3><span class="h3-bold">Code example</span></h3>
-          <code>
-            <pre>
-            function multiply(a,b){
-            return a * b;
-            }
-            </pre>
-          </code>
-        </div>
-        <div class="card">
-          <h3><span class="h3-bold">Work example</span></h3>
-          <button>this CV</button>
-        </div>
-        <div class="card">
-          <h3><span class="h3-bold">Skills</span></h3>
+        <div class="it-cards">
+          <div class="card it">
+            <h3><span class="h3-bold">Code example</span></h3>
+            <code>
+              <pre>
+       function multiply(a,b){
+       return a * b;
+       }
+              </pre>
+            </code>
+          </div>
+          <div class="card it">
+            <h3><span class="h3-bold">Work example</span></h3>
+            <p><a href="https://GITHUB-USERNAME.github.io/rsschool-cv/"><img src="pictures/cv-icon.png" alt="CV logo" width="50px" height="50px"></a></p>
+          </div>
+          <div class="card it">
+            <h3><span class="h3-bold">Skills</span></h3>
             <ul>
               <li>Excel</li>
               <li>Paint</li>
               <li>Screwdriver</li>
             </ul>
+          </div>
         </div>
       </section>
       <section id="languages">
@@ -129,7 +131,7 @@
           <ul>
             <li><span class="li-bold">Russian</span> - native</li>
             <li><span class="li-bold">Belorussian</span> - native</li>
-            <li><span class="li-bold">English</span> - A2-B1 <span class="comment">(EnglishDom school studying)</span> </li>
+            <li><span class="li-bold">English</span> - A2-B1 <span class="grey-italic">(EnglishDom school studying)</span> </li>
           </ul>
         </div>
       </section>
