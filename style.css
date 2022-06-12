@@ -1,10 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
   background-color: rgb(255, 255, 255);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .content {
   max-width: 960px;
+  min-width: 700px;
   margin: auto;
 }
 
@@ -13,11 +19,29 @@ header {
   top: 0px;
 }
 
+.header-footer {
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.year {
+  font-weight: bold;
+}
+
 .card {
   background-color: rgb(255, 255, 255);
   padding: 10px;
   margin: 10px;
 }
+
+.contacts {
+  display: flex;
+}
+
 section {
   background-color: rgb(240, 240, 240);
   padding: 10px;
@@ -26,6 +50,15 @@ section {
 
 h2 {
   margin: 0px 0px 0px 20px;
+}
+
+.li-bold {
+  font-weight: bold;
+}
+
+.contacts-list {
+  list-style: none;
+  padding: 0px;
 }
 
 h3 {
