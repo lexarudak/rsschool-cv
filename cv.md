@@ -1,6 +1,6 @@
 # **Aliaksei Rudak**
 
-![my photo](pictures/IMG_1591.jpeg)
+![my photo](pictures/my-photo.jpeg)
 
 - **Location :** Almaty, Kazakhstan
 - **Phone :** +7 (705) 150 03 01
