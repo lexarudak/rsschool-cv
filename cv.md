@@ -8,7 +8,7 @@
 - **E-mail :** lexarudak@gmail.com
 - **LinkedIN :** https://www.linkedin.com/feed/
 - **GitHub :** https://github.com/lexarudak
-- **Discord :** Aliaksei Rudak
+- **Discord :** Aliaksei Rudak#3667
 
 ---
 
