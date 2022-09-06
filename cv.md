@@ -6,9 +6,9 @@
 - **Phone :** +7 (705) 150 03 01
 - **Telegram :** +375 (29) 851 82 13
 - **E-mail :** lexarudak@gmail.com
-- **LinkedIN :** https://www.linkedin.com/feed/
+- **LinkedIN :** https://www.linkedin.com/in/aliaksei-rudak/
 - **GitHub :** https://github.com/lexarudak
-- **Discord :** Aliaksei Rudak
+- **Discord :** Aliaksei Rudak (lexarudak)#3667
 
 ---
 
@@ -72,8 +72,34 @@
 ## **CODE EXAMPLE**
 
 ```
-function multiply(a,b){
-  return a * b;
+let tr = 0
+let delay = 0
+
+const createDeck = () => {
+  if (cardsDeckUl.childElementCount === 0 && doneUl.childElementCount === 0 ) {
+    commonDeck.forEach(value => {
+      const card = document.createElement('li')
+      const back = document.createElement('div')
+      const front = document.createElement('div')
+      card.classList.add('cardLi')
+      card.classList.add(`${value.color}`)
+      card.classList.add('move')
+      front.classList.add('front')
+      back.classList.add('back')
+      back.style.backgroundImage = value.cardFace
+      card.style.marginTop = tr + 'px'
+      card.append(back)
+      card.append(front)
+      cardsDeckUl.append(card)
+
+      setTimeout(() => {
+        card.classList.remove('move')  
+      }, delay);
+      
+      tr = tr + 1
+      delay = delay + 100
+    })
+  }
 }
 ```
 
@@ -81,7 +107,10 @@ function multiply(a,b){
 
 ## **WORK EXAMPLE**
 
-### [**CV** - _(click to watch)_](https://github.com/lexarudak/rsschool-cv/blob/gh-pages/cv.md)
+### [**CV**](https://lexarudak.github.io/rsschool-cv/)
+### [**Travel**](https://lexarudak.github.io/travel_my/)
+### [**Momentum**](https://lexarudak.github.io/momentum_for_chrome/)
+### [**Eldritch Horror**](https://lexarudak.github.io/codejam-eldritch/)
 
 ---
 
@@ -89,4 +118,4 @@ function multiply(a,b){
 
 - **Russian** - native
 - **Belorussian** - native
-- **English** - A2-B1 _(EnglishDom school studying)_
+- **English** - B1 
