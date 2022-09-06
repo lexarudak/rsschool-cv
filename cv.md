@@ -1,6 +1,6 @@
 # **Aliaksei Rudak**
 
-![my photo](pictures/IMG_1591.jpeg)
+![my photo](pictures/my-photo.jpeg)
 
 - **Location :** Almaty, Kazakhstan
 - **Phone :** +7 (705) 150 03 01
@@ -9,6 +9,7 @@
 - **LinkedIN :** https://www.linkedin.com/in/aliaksei-rudak/
 - **GitHub :** https://github.com/lexarudak
 - **Discord :** Aliaksei Rudak (lexarudak)#3667
+
 
 ---
 
@@ -95,7 +96,7 @@ const createDeck = () => {
       setTimeout(() => {
         card.classList.remove('move')  
       }, delay);
-      
+
       tr = tr + 1
       delay = delay + 100
     })
